@@ -1,0 +1,26 @@
+.cardContainer {
+  @apply bg-white p-8 m-2
+    rounded-2xl shadow-md 
+    w-1/4 
+    flex flex-col justify-between;
+}
+.cardTitle {
+  @apply text-xl font-bold;
+}
+
+.cardStatusBarContainer {
+  @apply mx-4 my-2;
+}
+.cardStatusTitle {
+  @apply text-gray-600;
+}
+.cardStatusBarBackground {
+  @apply bg-gray-400 w-full h-3 rounded-lg mt-2 overflow-hidden;
+}
+
+.cardInfoContainer {
+  @apply px-4 py-2 text-xs text-gray-800;
+}
+.cardButton {
+  @apply py-3 px-8 rounded-2xl text-sm font-semibold text-gray-900 hover:bg-opacity-75;
+}
